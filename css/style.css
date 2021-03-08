@@ -106,6 +106,7 @@ a:focus {
   overflow: hidden;}
 
 
+
 header{
   background-attachment: fixed; /* Parallax effect */
   background-position: center;  /* Parallax effect */
@@ -133,34 +134,34 @@ grid-column: 2 / span 2;
 .about-image, .method-image, .client-image, .contact-image{
   /*Your Code Here*/
 grid-column: 1/-1;
-max-height: 650 px;
+max-height: 650px;
 }
 
 /*Req 7b & 8d*/
 .about, .about-image{
    /*Your Code Here*/
-   grid-template-rows: auto;
+   grid-row: 1 / span 1;
    overflow: hidden;
 }
 
 /*Req 7b & 8d*/
 .method, .method-image{
    /*Your Code Here*/
-   grid-template-rows: auto;
+   grid-row: 2 / span 1;
    overflow: hidden;
 }
 
 /*Req 7b & 8d*/
 .client, .client-image{
     /*Your Code Here*/
-    grid-template-rows: auto;
+    grid-row: 3 / span 1;
     overflow: hidden;
 }
 
 /*Req 7b & 8d*/
 .contacts, .contact-image{
     /*Your Code Here*/
-    grid-template-rows: auto;
+    grid-row: 4 / span 1;
     overflow: hidden;
 }
 
